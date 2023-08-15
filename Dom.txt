@@ -1,0 +1,24 @@
+# Dom.in 
+
+Here is a quick brakdown 
+
+Here's a breakdown of what the code does:
+
+Importing Libraries: The code starts by including various libraries necessary for the project, such as SoftwareSerial (for serial communication on other digital pins), TinyGPS++ (for GPS functionality), Adafruit_ssd1306syp (for OLED display), ESP8266WiFi, espnow (for WiFi communication), and SD (for SD card functionality).
+
+Constants and Variables: Several constants and variables are defined, such as filenames for log data, WiFi network information, and counters for the number of times certain WiFi networks are seen.
+
+Functions:
+
+updateFileName(): This function generates a unique log file name by incrementing a number until an available file name is found.
+printHeader(): This function writes a header to the log file with column names.
+OnDataRecv(): This callback function is executed when data is received via ESP-NOW. It processes the received data, extracts WiFi network details, GPS coordinates, and other information, and logs them to the SD card.
+displayinfo(): This function updates and displays information on the OLED display, including GPS coordinates and the number of times certain WiFi networks are seen.
+Setup(): The setup function initializes various components and functionalities. It initializes the OLED display, sets up serial communication with the GPS module, initializes SD card communication, sets the ESP-NOW role, registers the data receive callback, and calls updateFileName() and printHeader().
+
+Loop(): The loop function repeatedly calls displayinfo() to update the display with real-time information. It also continuously updates GPS data using gps.encode(ss.read()).
+
+smartDelay(): A custom delay function that ensures the GPS object is continuously updated during the delay period.
+
+Please note that some portions of the code appear to be commented out, and there might be a missing or extraneous "void displayinfo();" line at the end of the OnDataRecv() function.
+
