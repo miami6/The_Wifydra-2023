@@ -37,6 +37,16 @@ Name	Quantity	Manufacturer Part	Manufacturer
 
 The Dom.ino file goes on the main esp32-s3 that has the tft screen. 
 
+Libraries needed in Arduino IDE to be installed 
+ SoftwareSerial        // include library code to allow serial communication on other digital pins of the Arduino board
+ TinyGPS++            // include the library code for GPS module
+ Adafruit_ssd1306syp   // include Adafruit_ssd1306syp library for OLED display
+ ESP8266WiFi 
+ espnow 
+ SD 
+
+
+
 The Sub.ino file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. 
 YOU MUST MANUALLY CHANGE THE BOARD ID FOR EVERY SUB
 
