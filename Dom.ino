@@ -1,3 +1,10 @@
+//This code was created by Lozaning for the WiFydra Board 
+// This is designed to run on a Adafruit ESP32-S3 Feather TFT board
+
+
+
+
+
 
 #include <SoftwareSerial.h>       // include library code to allow serial communication on other digital pins of the Arduino board
 #include <TinyGPS++.h>            // include the library code for GPS module
