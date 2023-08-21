@@ -11,9 +11,9 @@ The Wifyrda is a wardriving tool for the simulanious monitoring all 2.4Ghz wifi 
 
 ![image](https://github.com/lozaning/The_Wifydra/assets/13127833/40c7db88-5f30-40e3-a340-c568a6b9d1a1)
 
-![image](https://github.com/lozaning/The_Wifydra/assets/13127833/05d1311d-2f22-4797-af1c-c54453f760cb)
+![image](https://github.com/miami6/The_Wifydra-2023/blob/main/IMG_9139.JPG)
 
-
+https://github.com/miami6/The_Wifydra-2023/blob/main/IMG_9139.JPG
 
  
 
