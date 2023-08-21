@@ -43,7 +43,14 @@ The Dom.ino file goes on the main esp32-s3 that has the tft screen.
  # SD 
  #spi Wifi
  #SPI
- 
+ **Required Components:**
+| Component | Purpose |
+| --- | --- | 
+| Adafruit ESP32-S2 TFT Feather 	 	"4264"	 | Gather WiFi data & control hardware modules | Qty 1 |
+| Adafruit 5v ready Micro-SD | Breakout board store data that we can analyze with WiGLE / Python | Qty 1 |
+| Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | Qty 1 |
+| Seeedstudio XIAO  esp32-c3 | individual channel radio| Qty 14 |
+| Seeedstudio XIAO  esp32-s3 | individual channel radio| Qty 2 |
 
 
 The Sub.ino file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. 
@@ -55,15 +62,12 @@ If you dont change the Board ID all your radios will all just scan channel 1. Th
 The four holes above the Wifydra are labled ground and VCC are where the power is designed to be put into the board.
 The board expects to get 5v from its power source. There are a variety of options available to accomplish this. I've got an 18650 battery pack that outputs over usb c, but also has 5v and 3.3v outlets. I connect the 5v and ground from that to the VCC and ground on the board and it works great. You could also solder a USB C decoy trigger set to out put 5 volts and use a standard power bank. I've also had luck with power the entire thing by plugging in the USB C powert of the Dom ESP32-S3 feather TFT, but im not sure this is advisable as Im unclear on how much power draw this puts on the TFT feather to power all the Subs.  
 
- 
- 
 
-SD Reader	Store data that we can analyze with WiGLE / Python
   
 **Required Components:**
 | Component | Purpose |
 | --- | --- | 
-| Adafruit ESP32-S2 TFT Feather 	 	"4264"	" | Gather WiFi data & control hardware modules | Qty 1 |
+| Adafruit ESP32-S2 TFT Feather 	 	"4264"	 | Gather WiFi data & control hardware modules | Qty 1 |
 | Adafruit 5v ready Micro-SD | Breakout board store data that we can analyze with WiGLE / Python | Qty 1 |
 | Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | Qty 1 |
 | Seeedstudio XIAO  esp32-c3 | individual channel radio| Qty 14 |
