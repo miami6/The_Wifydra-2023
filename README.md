@@ -73,6 +73,13 @@ MISO	GPIO37
 MOSI	GPIO35	
 SCK 	GPIO36	
 CS	  GPIO10	 
+**SD Reader Module** 
+| SD Reader Pin | ESP8266 GPIO | D1 Mini Pin |
+| --- | --- | --- |
+| MISO | GPIO12 | D6 |
+| MOSI | GPIO13 | D7 |
+| SCK | GPIO14 | D5 |
+| CS | GPIO15 | D8 |
 
 GPS Module	Grab geolocation data + timestamp
 
