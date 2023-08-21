@@ -83,8 +83,8 @@ GPS Module	Grab geolocation data + timestamp
 
 ## GPS Module
 
-TX	GPIO2	GPIO1
-RX	GPIO0	GPIO2 
+|TX	|	GPIO1 |
+|RX	| GPIO2 |
 
 
 <img src="https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Adafruit%20ESP32-S3%20TFT%20Feather%20Pinouts.jpg">
