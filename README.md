@@ -95,7 +95,7 @@ Component	Purpose
 
 SD Reader	Store data that we can analyze with WiGLE / Python
  
-<img src="https://imgur.com/a/0XDCpHK">
+ 
 
 GPS Module	Grab geolocation data + timestamp
 
@@ -115,7 +115,7 @@ GPS Pin	ESP8266 GPIO	D1 Mini Pin
 TX	GPIO2	D4
 RX	GPIO0	D3
 
-<img src=" https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png">
+<img src=" https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png ">
 
 
 
