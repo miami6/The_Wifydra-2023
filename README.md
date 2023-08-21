@@ -115,7 +115,7 @@ GPS Pin	ESP8266 GPIO	D1 Mini Pin
 TX	GPIO2	D4
 RX	GPIO0	D3
 
-<img src="https://imgur.com/a/0XDCpHK](https://github.com/miami6/The_Wifydra-2023/blob/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png">
+<img src=" https://github.com/miami6/The_Wifydra-2023/blob/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png">
 
 
 
