@@ -29,9 +29,8 @@ In the event I can make the swap over from ESP-NOW for Sub to DOM communications
 # BOM
 Name	Quantity	Manufacturer Part	Manufacturer
 
-"Adafruit_GPS"	"1"	"Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3"	""
-
-"MicroSD card breakout board+"	"1"	"Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3"	""
+Adafruit_GPS"	"1"	"Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3
+""
 
 "ADAFRUIT FEATHER ESP32-S2 W/TFT"	"1"	"4264"	"Adafruit"
 
@@ -63,14 +62,11 @@ The board expects to get 5v from its power source. There are a variety of option
 
 
 
-# # 
-<img src="https://i.imgur.com/rTWAT7X.jpg">
-
-# ESP8266-Mini-Wardriver
 
 
-# Project Title
-ESP8266 Mini Driver
+
+
+
 
 
 A brief description of what this project does  
@@ -87,37 +83,28 @@ Any ESP8266-based board should work with the basic required components, but the 
 # #
 Pinout 
 Wemos D1 Pinout
-<img src=" https://i.imgur.com/oUn3qy3.png">
+ 
 
 
 Required Components:
 # #
 Component	Purpose
-ESP8266	Gather WiFi data & control hardware modules
-Wemos D1 Product 
+  
 
-<img src="https://i.imgur.com/EYvZBMK.png">
+ 
 
 SD Reader	Store data that we can analyze with WiGLE / Python
-SD Card Wiring
+ 
 <img src="https://imgur.com/a/0XDCpHK">
 
 GPS Module	Grab geolocation data + timestamp
 
-<img src="https://i.imgur.com/6uUIQhl.png">
+ 
 
-Display 128x64
+ 
+ 
 
-<img src="https://i.imgur.com/SYSRmWb.png">
-
-Optional Components:
-
-Component	Purpose
-128x64 OLED	Get a visual display of WiFi data being captured
-LiPo Battery	Power your ESP8266 for portable applications
-
-
-SD Reader Pin	ESP8266 GPIO	D1 Mini Pin
+SD Reader Pin	Adafruit ESP32-S3 Feather  
 MISO	GPIO12	D6
 MOSI	GPIO13	D7
 SCK	GPIO14	D5
