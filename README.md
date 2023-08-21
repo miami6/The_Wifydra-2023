@@ -87,45 +87,18 @@ SD Reader	Store data that we can analyze with WiGLE / Python
 | SD Reader Pin | ESP32-S3 GPIO | Pin |
 | --- | --- | --- |
 | MISO | GPIO37 | MISO |
-| MOSI | GPIO13 | D7 |
-| SCK | GPIO14 | D5 |
-| CS | GPIO15 | D8 |
+| MOSI | GPIO35 | MOSI |
+| SCK | GPIO14 | SCK |
+| CS | GPIO10 | D10 |
 
 **GPS Module** 
 | GPS Pin | ESP32-S3 GPIO |  Pin |
 | --- | --- | --- |
-| TX | GPIO2 | D4 |
-| RX | GPIO0 | D3 |
+| TX | GPIO1 | TX |
+| RX | GPIO2 | RX |
 
  
-## SD Card Module
- 
-MISO	GPIO37	
-MOSI	GPIO35	
-SCK 	GPIO36	
-CS	  GPIO10	 
-**SD Reader Module** 
-| SD Reader Pin | ESP32-S3 |  Pin |
-| --- | --- | --- |S
-| MISO | GPIO37 | MISO |
-| MOSI | GPIO13 | D7 |
-| SCK | GPIO14 | D5 |
-| CS | GPIO15 | D8 |
-
-GPS Module	Grab geolocation data + timestamp
-
-## GPS Module
-
-|TX	|	GPIO1 |
-|RX	| GPIO2 |
-
-**GPS Module** 
-| GPS Pin | ESP32-S3 GPIO |  
-| --- | --- |  
-| TX | GPIO1 | 
-| RX | GPIO2 |  
-
-<img src="https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Adafruit%20ESP32-S3%20TFT%20Feather%20Pinouts.jpg">
+ <img src="https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Adafruit%20ESP32-S3%20TFT%20Feather%20Pinouts.jpg">
  
 
 ## Acknowledgements
