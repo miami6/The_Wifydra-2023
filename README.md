@@ -63,10 +63,11 @@ SD Reader	Store data that we can analyze with WiGLE / Python
 **Required Components:**
 | Component | Purpose |
 | --- | --- |
-| Adafruit ESP32-S2 TFT Feather 	 	"4264"	" | Gather WiFi data & control hardware modules |
-| SD Reader | Store data that we can analyze with WiGLE / Python |
-| Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | 
-| Seeedstudio XIAO  esp32-c3 | individual chanel radio|
+| Adafruit ESP32-S2 TFT Feather 	 	"4264"	" | Gather WiFi data & control hardware modules | Qty 1 |
+| SD Reader | Store data that we can analyze with WiGLE / Python | Qty 1 |
+| Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | Qty 1 |
+| Seeedstudio XIAO  esp32-c3 | individual channel radio| Qty 14 |
+| Seeedstudio XIAO  esp32-s3 | individual channel radio| Qty 2 |
 
 **Optional Components:**
 | Component | Purpose | 
