@@ -9,7 +9,7 @@ Multi-headed 802.11 panopticon
 
 The Wifyrda is a wardriving tool for the simulanious monitoring all 2.4Ghz wifi channels for network beacons, and includes the ability to geotag the location of found networks and write all this data to an SD card for uploading to Wigle.net
 
-![image](https://github.com/lozaning/The_Wifydra/assets/13127833/40c7db88-5f30-40e3-a340-c568a6b9d1a1)
+![image](https://github.com/miami6/The_Wifydra-2023/blob/main/IMG_9117.JPG)
 
 ![image](https://github.com/miami6/The_Wifydra-2023/blob/main/IMG_9139.JPG)
 
