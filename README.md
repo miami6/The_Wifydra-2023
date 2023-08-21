@@ -69,17 +69,17 @@ SD Reader	Store data that we can analyze with WiGLE / Python
 **Required Components:**
 | Component | Purpose |
 | --- | --- |
-| ESP8266 | Gather WiFi data & control hardware modules
+| ADAFRUIT FEATHER ESP32-S2 W/TFT 	 	"4264"	" | Gather WiFi data & control hardware modules |
 | SD Reader | Store data that we can analyze with WiGLE / Python |
 | GPS Module | Grab geolocation data + timestamp |
 
 **Optional Components:**
 | Component | Purpose | 
 | --- | --- |
-| 128x64 OLED | Get a visual display of WiFi data being captured |
-| LiPo Battery | Power your ESP8266 for portable applications |
+| UF.L TO SMA | Add external SMA antenna                      |
+| LiPo Battery | Power your ESP32-S3 for portable applications |
 | Battery Module | Manage power for your ESP8266 w/ a LiPo battery |
-| 100K Ω Resistor | Optional to read in battery level w/ the D1 Mini |
+| Clear case | Harbor Freight Apache 500 series clar case |
    
 ## Hardware Setup
 
