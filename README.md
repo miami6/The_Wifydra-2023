@@ -15,30 +15,35 @@ The Wifyrda is a wardriving tool for the simulanious monitoring all 2.4Ghz wifi 
 
 
 # Build Note 1
-Two bodge cables are needed with the current revision of this PCB.
+
 The First goes from one of the two holes in the VCC holes above the ESP32-S3
-The Second goes from one of the +3v out from the ESP32-S3 and into the VIN of either the SD Card or the GPS. (I sent to the sd card)
-This is due to using +VCC for all the VIN net on the sub nodes and mistakenly using +5v for the VIN net on the ESP-32S3 and the peripherals connected to it. It should have all been the same net. 
+. (I sent to the sd card)
+. 
 
 # Build Note 2
-To ensure that home built feel for every wifydra, I made sure to not check the footprint of the seed xaio esp32-C3 that I used in this, resulting in the board having a larger footprint for these modules than should have been used. The chips themselves have castilated edges, and both power and ground are on the same side, so just scooch 'em over a bit and make sure you get those pins connected up to the board. 
+. . 
 
-In the event I can make the swap over from ESP-NOW for Sub to DOM communications to i2c, I'll ensure to assign the pins to the ones on the same side as 5v and ground, so you'd only have to solder up more pins on the side already lined up.
-
-
+# Build Note 1
+  
+ | Build| Purpose |
+| --- | --- | 
+| Build Note 1 |  Two bodge cables are needed with the current revision of this PCB. |
+|         |  The Second goes from one of the +3v out from the ESP32-S3 and into the VIN of either the SD Card or the GPS |
+|         |  This is due to using +VCC for all the VIN net on the sub nodes and mistakenly using +5v for the VIN net on the ESP-32S3 and the peripherals connected to it.  |
+|         |  It should have all been the same net|
+|         |    
  
 
-"Seeedstudio XIAO"	"16"	"113991054"	"Seeedstudio" (These can be any combination of the esp32-c3 or esp32-s3 ones. The benefits of the s3 is that it support BOTH BT and LE)
-
-
-# What to flash with what
-
- | The Dom.ino | file goes on the main esp32-s3 that has the tft screen. |
-
-
-  | The Sub.ino | file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. | 
-|YOU MUST MANUALLY CHANGE THE BOARD ID FOR EVERY SUB 14 channels |
-
+# Build Note 2
+  
+ | Build | Purpose |
+| --- | --- | 
+| Build Note 2| To ensure that home built feel for every wifydra, I made sure to not check the footprint of the seed xaio esp32-C3 that I used in this, |
+|         | resulting in the board having a larger footprint for these modules than should have been used |
+|         | The chips themselves have castilated edges, and both power and ground are on the same side, |
+|         | so just scooch 'em over a bit and make sure you get those pins connected up to the board                                                     |
+|         |                                                                  |
+ 
 # What to flash with what
   
  | flash | Purpose |
