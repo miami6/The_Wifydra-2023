@@ -26,13 +26,7 @@ To ensure that home built feel for every wifydra, I made sure to not check the f
 In the event I can make the swap over from ESP-NOW for Sub to DOM communications to i2c, I'll ensure to assign the pins to the ones on the same side as 5v and ground, so you'd only have to solder up more pins on the side already lined up.
 
 
-# BOM
-Name	Quantity	Manufacturer Part	Manufacturer
-
-Adafruit_GPS"	"1"	"Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3
-""
-
-"ADAFRUIT FEATHER ESP32-S2 W/TFT"	"1"	"4264"	"Adafruit"
+ 
 
 "Seeedstudio XIAO"	"16"	"113991054"	"Seeedstudio" (These can be any combination of the esp32-c3 or esp32-s3 ones. The benefits of the s3 is that it support BOTH BT and LE)
 
@@ -69,16 +63,17 @@ SD Reader	Store data that we can analyze with WiGLE / Python
 **Required Components:**
 | Component | Purpose |
 | --- | --- |
-| ADAFRUIT FEATHER ESP32-S2 W/TFT 	 	"4264"	" | Gather WiFi data & control hardware modules |
+| Adafruit ESP32-S2 TFT Feather 	 	"4264"	" | Gather WiFi data & control hardware modules |
 | SD Reader | Store data that we can analyze with WiGLE / Python |
-| GPS Module | Grab geolocation data + timestamp |
+| Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | 
+| Seeedstudio XIAO  esp32-c3 | individual chanel radio|
 
 **Optional Components:**
 | Component | Purpose | 
 | --- | --- |
-| UF.L TO SMA | Add external SMA antenna                      |
+| UF.L TO SMA | Add external RP SMA antenna                      |
+| SMA Antenna  | 8 dbi RPSMA Antenna                            |
 | LiPo Battery | Power your ESP32-S3 for portable applications |
-| Battery Module | Manage power for your ESP8266 w/ a LiPo battery |
 | Clear case | Harbor Freight Apache 500 series clar case |
    
 ## Hardware Setup
