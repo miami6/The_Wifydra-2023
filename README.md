@@ -62,7 +62,7 @@ SD Reader	Store data that we can analyze with WiGLE / Python
   
 **Required Components:**
 | Component | Purpose |
-| --- | --- | --- |
+| --- | --- | 
 | Adafruit ESP32-S2 TFT Feather 	 	"4264"	" | Gather WiFi data & control hardware modules | Qty 1 |
 | Adafruit 5v ready Micro-SD | Breakout board store data that we can analyze with WiGLE / Python | Qty 1 |
 | Adafruit Ultimate GPS Breakout | 66 channel w/10 Hz updates - Version 3 | Qty 1 |
