@@ -40,14 +40,16 @@ Adafruit_GPS"	"1"	"Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates -
 
 The Dom.ino file goes on the main esp32-s3 that has the tft screen. 
 
-Libraries needed in Arduino IDE to be installed 
- SoftwareSerial        // include library code to allow serial communication on other digital pins of the Arduino board
- TinyGPS++            // include the library code for GPS module
- Adafruit_ssd1306syp   // include Adafruit_ssd1306syp library for OLED display
- ESP8266WiFi 
- espnow 
- SD 
-
+## Libraries needed in Arduino IDE to be installed 
+ 
+ # SoftwareSerial        // include library code to allow serial communication on other digital pins of the Arduino board
+ # TinyGPS++            // include the library code for GPS module
+ # Adafruit_ssd1306syp   // include Adafruit_ssd1306syp library for OLED display
+ # espnow 
+ # SD 
+ #spi Wifi
+ #SPI
+ 
 
 
 The Sub.ino file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. 
@@ -60,32 +62,6 @@ The four holes above the Wifydra are labled ground and VCC are where the power i
 The board expects to get 5v from its power source. There are a variety of options available to accomplish this. I've got an 18650 battery pack that outputs over usb c, but also has 5v and 3.3v outlets. I connect the 5v and ground from that to the VCC and ground on the board and it works great. You could also solder a USB C decoy trigger set to out put 5 volts and use a standard power bank. I've also had luck with power the entire thing by plugging in the USB C powert of the Dom ESP32-S3 feather TFT, but im not sure this is advisable as Im unclear on how much power draw this puts on the TFT feather to power all the Subs.  
 
 
-
-
-
-
-
-
-
-
-
-A brief description of what this project does  
-
-This is a small electronics project for all those interested in arduino and wifi stuff  
-
-A arduino sketch in th eino format to get your hardware going wardriving on the ESP8266 WiFi microcontroller 
-
-Documentation on this page is still in development. CREDIT to Alex Lynd for the Idea. 
-
-Components used in the project are as follows 
-
-Any ESP8266-based board should work with the basic required components, but the D1 mini form factor is highly recommended since using modules (such as for SD logging + battery management) can be done using plug-and-play hardware in a small footprint. All linked components are D1 mini compatible.
-# #
-Pinout 
-Wemos D1 Pinout
- 
-
-
 Required Components:
 # #
 Component	Purpose
@@ -94,28 +70,23 @@ Component	Purpose
  
 
 SD Reader	Store data that we can analyze with WiGLE / Python
+  
  
+## SD Card Module
  
+MISO	GPIO37	
+MOSI	GPIO35	
+SCK 	GPIO36	
+CS	  GPIO10	 
 
 GPS Module	Grab geolocation data + timestamp
 
- 
+## GPS Module
 
- 
- 
+TX	GPIO2	GPIO1
+RX	GPIO0	GPIO2 
 
-SD Reader Pin	Adafruit ESP32-S3 Feather  
-MISO	GPIO12	D6
-MOSI	GPIO13	D7
-SCK	GPIO14	D5
-CS	GPIO15	D8
-GPS Module
 
-GPS Pin	ESP8266 GPIO	D1 Mini Pin
-TX	GPIO2	D4
-RX	GPIO0	D3
-
-<img src="https://i.imgur.com/rTWAT7X.jpg">
 <img src="https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Adafruit%20ESP32-S3%20TFT%20Feather%20Pinouts.jpg">
  
 
