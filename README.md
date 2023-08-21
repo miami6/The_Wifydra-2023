@@ -115,7 +115,7 @@ GPS Pin	ESP8266 GPIO	D1 Mini Pin
 TX	GPIO2	D4
 RX	GPIO0	D3
 
-<img src=" https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png ">
+<img src="  https://raw.githubusercontent.com/miami6/The_Wifydra-2023/main/Adafruit%20ESP32-S3%20TFT%20Feather%20Pinouts.jpg ">
 
 
 
