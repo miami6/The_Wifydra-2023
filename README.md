@@ -33,11 +33,11 @@ In the event I can make the swap over from ESP-NOW for Sub to DOM communications
 
 # What to flash with what
 
- ## The Dom.ino file goes on the main esp32-s3 that has the tft screen. 
+ | The Dom.ino | file goes on the main esp32-s3 that has the tft screen. |
 
 
-  ## The Sub.ino file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. 
-YOU MUST MANUALLY CHANGE THE BOARD ID FOR EVERY SUB
+  | The Sub.ino | file goes on all of the sub seed xaio radios. Each of the sub nodes only scans a single channel for networks. | 
+|YOU MUST MANUALLY CHANGE THE BOARD ID FOR EVERY SUB 14 channels |
 
 If you dont change the Board ID all your radios will all just scan channel 1. There are 14 wifi channels, so iterate through those as you flash each sub
 
