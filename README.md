@@ -30,21 +30,30 @@ In the event I can make the swap over from ESP-NOW for Sub to DOM communications
 
 "Seeedstudio XIAO"	"16"	"113991054"	"Seeedstudio" (These can be any combination of the esp32-c3 or esp32-s3 ones. The benefits of the s3 is that it support BOTH BT and LE)
 
+
 # What to flash with what
 
 The Dom.ino file goes on the main esp32-s3 that has the tft screen. 
 
-## Libraries needed in Arduino IDE to be installed 
  
- # SoftwareSerial        // include library code to allow serial communication on other digital pins of the Arduino board
- # TinyGPS++            // include the library code for GPS module
- # Adafruit_ssd1306syp   // include Adafruit_ssd1306syp library for OLED display
- # espnow 
- # SD 
- #spi Wifi
- #SPI
- **Required Components:**
-| Component | Purpose |
+ # Required Libraries 
+  
+ | Library | Purpose |
+| --- | --- | 
+| WiFi | This library is used for connecting to Wi-Fi networks |
+| esp_now | This library provides an API for simple and secure communication between ESP32 modules using the ESP-NOW protocol |
+| Adafruit_GFX |  This library is used for controlling a TFT display (probably a ST7789-based display) to show information |
+| Adafruit_ST7789 |  library for OLED display |
+| SPI  | This library is used to communicate with devices using the Serial Peripheral Interface (SPI) protocol, which is commonly used to communicate with displays and other peripherals |
+| HardwareSerial | This library is used to handle serial communication, likely for GPS module communication |
+| TinyGPS++ | This library is used to parse and extract data from GPS modules|
+| SD  | This library is used to interact with SD cards for data storage |
+ 
+
+ 
+ # Required Components 
+  
+ | Component | Purpose |
 | --- | --- | 
 | Adafruit ESP32-S2 TFT Feather 	 	"4264"	 | Gather WiFi data & control hardware modules | Qty 1 |
 | Adafruit 5v ready Micro-SD | Breakout board store data that we can analyze with WiGLE / Python | Qty 1 |
