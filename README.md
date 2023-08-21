@@ -14,14 +14,8 @@ The Wifyrda is a wardriving tool for the simulanious monitoring all 2.4Ghz wifi 
 ![image](https://github.com/lozaning/The_Wifydra/assets/13127833/05d1311d-2f22-4797-af1c-c54453f760cb)
 
 
-# Build Note 1
 
-The First goes from one of the two holes in the VCC holes above the ESP32-S3
-. (I sent to the sd card)
-. 
-
-# Build Note 2
-. . 
+ 
 
 # Build Note 1
   
