@@ -74,9 +74,9 @@ MOSI	GPIO35
 SCK 	GPIO36	
 CS	  GPIO10	 
 **SD Reader Module** 
-| SD Reader Pin | ESP8266 GPIO | D1 Mini Pin |
-| --- | --- | --- |
-| MISO | GPIO12 | D6 |
+| SD Reader Pin | ESP32-S3 |  Pin |
+| --- | --- | --- |S
+| MISO | GPIO37 | MISO |
 | MOSI | GPIO13 | D7 |
 | SCK | GPIO14 | D5 |
 | CS | GPIO15 | D8 |
