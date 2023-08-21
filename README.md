@@ -115,21 +115,20 @@ GPS Pin	ESP8266 GPIO	D1 Mini Pin
 TX	GPIO2	D4
 RX	GPIO0	D3
 
+<img src="https://imgur.com/a/0XDCpHK](https://github.com/miami6/The_Wifydra-2023/blob/main/Screen%20Shot%202023-08-21%20at%204.51.54%20PM.png">
+
+
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
+  
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+ 
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
  
  
  <img src="https://github.com/miami6/ESP8266-Mini-Wardriver/blob/main/b_gWKr0k_400x400.jpeg">
